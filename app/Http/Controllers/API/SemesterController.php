@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\API;
 
-use App\Models\DepartmentCourse;
+use App\Models\Semester;
 use Illuminate\Http\Request;
 
-class DepartmentCourseController extends Controller
+class SemesterController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class DepartmentCourseController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(DepartmentCourse $departmentCourse)
+    public function show(Semester $semester)
     {
         //
     }
@@ -42,7 +42,7 @@ class DepartmentCourseController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(DepartmentCourse $departmentCourse)
+    public function edit(Semester $semester)
     {
         //
     }
@@ -50,7 +50,7 @@ class DepartmentCourseController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, DepartmentCourse $departmentCourse)
+    public function update(Request $request, Semester $semester)
     {
         //
     }
@@ -58,7 +58,7 @@ class DepartmentCourseController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(DepartmentCourse $departmentCourse)
+    public function destroy(Semester $semester)
     {
         //
     }

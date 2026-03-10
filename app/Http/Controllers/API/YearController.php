@@ -1,18 +1,18 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\API;
 
-use App\Models\Semester;
+use App\Models\Year;
 use Illuminate\Http\Request;
 
-class SemesterController extends Controller
+class YearController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+        
     }
 
     /**
@@ -28,13 +28,13 @@ class SemesterController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Semester $semester)
+    public function show(Year $year)
     {
         //
     }
@@ -42,7 +42,7 @@ class SemesterController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Semester $semester)
+    public function edit(Year $year)
     {
         //
     }
@@ -50,7 +50,7 @@ class SemesterController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Semester $semester)
+    public function update(Request $request, Year $year)
     {
         //
     }
@@ -58,7 +58,7 @@ class SemesterController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Semester $semester)
+    public function destroy(Year $year)
     {
         //
     }

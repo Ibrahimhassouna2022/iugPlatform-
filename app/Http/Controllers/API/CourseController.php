@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\API;
 
-use App\Models\Year;
+use App\Models\Course;
 use Illuminate\Http\Request;
 
-class YearController extends Controller
+class CourseController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class YearController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Year $year)
+    public function show(Course $course)
     {
         //
     }
@@ -42,7 +42,7 @@ class YearController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Year $year)
+    public function edit(Course $course)
     {
         //
     }
@@ -50,7 +50,7 @@ class YearController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Year $year)
+    public function update(Request $request, Course $course)
     {
         //
     }
@@ -58,7 +58,7 @@ class YearController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Year $year)
+    public function destroy(Course $course)
     {
         //
     }
